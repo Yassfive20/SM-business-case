@@ -2,18 +2,7 @@
 > \*\*Build initial complet : 25 pages markdown\*\* organisées selon le pattern LLM Wiki.
 >
 > Ce dossier est conçu pour être uploadé dans le \*\*Project Knowledge\*\* de Claude (claude.ai) afin de devenir persistant entre les sessions.
----
-🚀 Quick start — Upload dans le Project Knowledge
-Décompresser ce zip dans un dossier local (ex: `wiki\_yassine/`)
-Ouvrir ton projet sur claude.ai
-Dans la sidebar du projet, cliquer sur "Project knowledge"
-Drag & drop tous les fichiers `.md` (sans la structure de dossiers — claude.ai ne préserve pas l'arborescence)
-⚠️ Renommer optionnellement chaque fichier avec un préfixe pour préserver le contexte :
-`00\_schema.md` → garder
-`candidate/profile.md` → renommer en `candidate\_profile.md`
-`narrative/thesis\_central.md` → renommer en `narrative\_thesis\_central.md`
-etc.
-Une fois uploadés, dans toute nouvelle conversation, Claude pourra rechercher dans le wiki avec `project\_knowledge\_search`
+
 ---
 🔄 Workflow recommandé pour les itérations
 Quand tu veux modifier une slide
@@ -111,15 +100,9 @@ Frise chronologique du parcours pour appendice E (priorité 3)
 ❌ Ne pas inventer un chiffre — toujours flagger `\[À CONFIRMER]` si manquant
 ❌ Ne pas oublier de re-uploader la version mise à jour dans le Project Knowledge après chaque session significative
 ---
-🔄 Procédure de mise à jour entre sessions
-À la fin d'une session productive avec Claude :
-Demander : "Génère un .zip de l'état actuel du wiki avec les modifications de cette session"
-Claude package
-Tu télécharges, tu extrais
-Dans le Project Knowledge claude.ai, tu remplaces les fichiers modifiés (suppression + re-upload)
-La session suivante repart sur l'état à jour
+
 ---
 📞 Questions sur le wiki ?
 Demander à Claude : "Comment fonctionne le wiki ?" — il consultera ce README et `00\_schema.md` pour répondre.
 ---
-Construit le 2026-04-25. Build initial = 25 pages, 185 KB.
+
